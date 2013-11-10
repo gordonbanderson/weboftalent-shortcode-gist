@@ -1,0 +1,24 @@
+{
+	"name": "weboftalent/silverstripe-shortcode-gist",
+	"description": "Add a shortcode for github gists for Silverstripe",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "shortcode","gist"],
+	"authors": [
+		{
+			"name": "Gordon Anderson",
+			"email": "gordon.b.anderson@gmail.com",
+			"homepage": "http://github.com/gordonbanderson",
+			"role": "Developer"
+		}
+	],
+    "support": {
+        "issues": "http://github.com/tractorcow/silverstripe-autocomplete/issues"
+    },
+	"require":
+	{
+		"silverstripe/framework": ">=3.1.x-dev,<4.0"
+	},
+    "extra": {
+        "installer-name": "autocomplete"
+    }
+}
