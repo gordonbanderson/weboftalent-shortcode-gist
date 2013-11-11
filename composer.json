@@ -7,12 +7,12 @@
 		{
 			"name": "Gordon Anderson",
 			"email": "gordon.b.anderson@gmail.com",
-			"homepage": "http://github.com/gordonbanderson",
+			"homepage": "https://github.com/gordonbanderson/weboftalent-shortcode-gist",
 			"role": "Developer"
 		}
 	],
     "support": {
-        "issues": "http://github.com/tractorcow/silverstripe-autocomplete/issues"
+        "issues": "https://github.com/gordonbanderson/weboftalent-shortcode-gist/issues"
     },
 	"require":
 	{
