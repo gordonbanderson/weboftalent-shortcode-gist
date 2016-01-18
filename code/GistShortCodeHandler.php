@@ -4,10 +4,14 @@ class GistShortCodeHandler
 {
     public static function parse_gist($arguments, $caption = null, $parser = null)
     {
-        // first things first, if we dont have a video ID, then we don't need to
+        // first things first, if we dont have a Gist ID, then we don't need to
         // go any further
         if (empty($arguments['id'])) {
             return;
+        }
+
+        if (!empty($caption)) {
+        	$arguments['Caption'] = $caption;
         }
 
         $customise = array();
