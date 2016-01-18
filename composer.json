@@ -1,8 +1,8 @@
 {
 	"name": "weboftalent/silverstripe-shortcode-gist",
-	"description": "Add a shortcode for github gists for Silverstripe",
+	"description": "Adds a shortcode for GitHub gists in Silverstripe",
 	"type": "silverstripe-module",
-	"keywords": ["silverstripe", "shortcode","gist"],
+	"keywords": ["silverstripe", "shortcode","gist", "GitHub"],
 	"authors": [
 		{
 			"name": "Gordon Anderson",
@@ -16,6 +16,6 @@
     },
 	"require":
 	{
-		"silverstripe/framework": "~3.1"
+		"silverstripe/cms": "~3.1"
 	}
 }
