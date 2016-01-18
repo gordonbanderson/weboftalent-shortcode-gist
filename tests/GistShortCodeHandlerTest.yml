@@ -1,0 +1,11 @@
+Page:
+  GistIdOnly:
+    Title: Basic Gist
+    Content: There should be a gist here [Gist id="7fadc8280da9e2694960"]
+  GistWithCaption:
+    Title: Gist with Caption
+    Content: There should be a gist here with a caption [Gist id="7fadc8280da9e2694960"]This is a caption[/Gist]
+  GistWithMissingID:
+    Title: Gist with Missing ID
+    Content: This will be blank [Gist]
+
