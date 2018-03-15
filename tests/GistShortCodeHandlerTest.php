@@ -1,5 +1,8 @@
 <?php
 
+use SilverStripe\View\Parsers\ShortcodeParser;
+use SilverStripe\Dev\SapphireTest;
+
 class GistShortCodeHandlerTest extends SapphireTest {
 
 	protected static $fixture_file = 'GistShortCodeHandlerTest.yml';

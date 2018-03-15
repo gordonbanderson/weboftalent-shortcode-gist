@@ -1,5 +1,8 @@
 <?php
 
+use SilverStripe\View\SSViewer;
+use SilverStripe\View\ArrayData;
+
 class GistShortCodeHandler
 {
     public static function parse_gist($arguments, $caption = null, $parser = null)
