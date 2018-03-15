@@ -1,12 +1,35 @@
 <?php
+namespace WebOfTalent\ShortCodeGist;
 
+use SilverStripe\View\Parsers\ShortcodeHandler;
 use SilverStripe\View\SSViewer;
 use SilverStripe\View\ArrayData;
 
-class GistShortCodeHandler
+class GistShortCodeHandler implements ShortcodeHandler
 {
-    public static function parse_gist($arguments, $caption = null, $parser = null)
-    {
+	/**
+	 * Gets the list of shortcodes provided by this handler
+	 *
+	 * @return mixed
+	 */
+	public static function get_shortcodes()
+	{
+		return array('Gist');
+	}
+
+
+	/**
+	 *
+	 * @param array $arguments
+	 * @param string $content
+	 * @param ShortcodeParser $parser
+	 * @param string $shortcode
+	 * @param array $extra
+	 *
+	 * @return string
+	 */
+	public static function handle_shortcode($arguments, $content, $parser, $shortcode, $extra = array())
+	{
         // first things first, if we dont have a Gist ID, then we don't need to
         // go any further
         if (empty($arguments['id'])) {
@@ -14,7 +37,7 @@ class GistShortCodeHandler
         }
 
         if (!empty($caption)) {
-        	$arguments['Caption'] = $caption;
+            $arguments['Caption'] = $caption;
         }
 
         $customise = array();

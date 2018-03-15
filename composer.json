@@ -16,6 +16,12 @@
     },
 	"require":
 	{
-		"silverstripe/cms": "~3.1"
+		"silverstripe/cms": "~4"
+	},
+	"autoload": {
+		"psr-4": {
+			"WebOfTalent\\ShortCodeGist\\": "code/",
+			"WebOfTalent\\ShortCodeGist\\Tests\\": "tests/"
+		}
 	}
 }

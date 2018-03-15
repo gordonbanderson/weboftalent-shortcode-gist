@@ -27,4 +27,3 @@ If a caption is required add as per the following:
 
     [Gist id="7fadc8280da9e2694960"]This is a caption[/Gist]
 
-For a live example of this module in use, see http://demo.weboftalent.asia/mappable/map-layers/
