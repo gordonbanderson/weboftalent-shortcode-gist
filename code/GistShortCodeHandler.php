@@ -14,7 +14,7 @@ class GistShortCodeHandler implements ShortcodeHandler
 	 */
 	public static function get_shortcodes()
 	{
-		return array('Gist');
+		return array('gist');
 	}
 
 
