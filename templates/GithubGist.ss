@@ -1,4 +1,4 @@
-<script src="https://gist.github.com/whatalnk/{$GistID}.js"></script>
+<script src="{$GistURL}.js"></script>
 <noscript>Please enable javascript to see this Gist inline.  It can be viewed externally here:
-<a href="https://gist.github.com/gordonbanderson/{$GistID}">Gist</a></noscript><% if $Caption %><p class="caption">$Caption</p><% end_if %>
+<a href="$GistURL">Gist</a></noscript><% if $Caption %><p class="caption">$Caption</p><% end_if %>
 

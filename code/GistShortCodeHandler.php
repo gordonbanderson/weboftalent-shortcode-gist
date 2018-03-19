@@ -32,7 +32,7 @@ class GistShortCodeHandler implements ShortcodeHandler
 	{
         // first things first, if we dont have a Gist ID, then we don't need to
         // go any further
-        if (empty($arguments['id'])) {
+        if (empty($arguments['url'])) {
             return;
         }
 
@@ -41,7 +41,7 @@ class GistShortCodeHandler implements ShortcodeHandler
         }
 
         $customise = array();
-        $customise['GistID'] = $arguments['id'];
+        $customise['GistURL'] = $arguments['url'];
 
         //overide the defaults with the arguments supplied
         $customise = array_merge($customise, $arguments);

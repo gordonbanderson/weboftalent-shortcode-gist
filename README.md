@@ -21,9 +21,9 @@ This module allows github gists to be rendered using shortcodes.
 ##Functionality
 GitHub gists can be embedded into a page using it's Gist ID.  For example:
 
-    [Gist id='7fadc8280da9e2694960']
+    [Gist url='https://gist.github.com/gordonbanderson/7fadc8280da9e2694960']
 
 If a caption is required add as per the following:
 
-    [Gist id="7fadc8280da9e2694960"]This is a caption[/Gist]
+    [Gist url="https://gist.github.com/gordonbanderson/7fadc8280da9e2694960"]This is a caption[/Gist]
 
