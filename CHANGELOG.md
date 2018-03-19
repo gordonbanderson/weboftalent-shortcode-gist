@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.0.3](https://github.com/gordonbanderson/weboftalent-shortcode-gist/tree/2.0.3) (2018-03-19)
+[Full Changelog](https://github.com/gordonbanderson/weboftalent-shortcode-gist/compare/2.0.2...2.0.3)
+
 ## [2.0.2](https://github.com/gordonbanderson/weboftalent-shortcode-gist/tree/2.0.2) (2018-03-18)
 [Full Changelog](https://github.com/gordonbanderson/weboftalent-shortcode-gist/compare/2.0.1...2.0.2)
 
